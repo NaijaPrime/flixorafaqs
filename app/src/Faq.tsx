@@ -152,17 +152,8 @@ const Faq = () => {
 
     <div className="min-h-screen bg-black text-white">
       <div className="border-b border-white/10 bg-black/80 backdrop-blur-xl">
-        <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
-          <img src="/logo.png" alt="Flixora" className="h-12 object-contain" />
-
-          <div className="flex gap-3">
-            <button className="px-6 py-2 border border-white/20 rounded-lg hover:bg-white/10 transition">
-              Sign Up
-            </button>
-            <button className="px-6 py-2 border border-white/20 rounded-lg hover:bg-white/10 transition">
-              Log In
-            </button>
-          </div>
+        <div className="max-w-7xl mx-auto px-5 sm:px-6 py-4 sm:py-5 flex justify-center">
+          <img src="/logo.png" alt="Flixora" className="h-8 sm:h-12 object-contain" />
         </div>
       </div>
 
@@ -172,7 +163,7 @@ const Faq = () => {
             Help Centre
           </p>
 
-          <h1 className="text-5xl md:text-7xl font-black leading-tight">
+          <h1 className="text-5xl md:text-5xl sm:text-7xl font-black leading-tight">
             Frequently Asked Questions
           </h1>
 
